@@ -1,0 +1,4 @@
+﻿costTypeID,costType,costTypeDesc,hidden
+1,Capital,Capital,N
+2,Expense,Expense,N
+3,Nocost,No Cost,N

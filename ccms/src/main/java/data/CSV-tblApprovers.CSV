@@ -1,0 +1,112 @@
+﻿ApproverID,areaID,ApproverType,ApproverAccout,ApproverName,ApproverEmail,SortOrder,hidden
+13,5,Process Safety,elsisy.aa,Ahmed Elsisy,elsisy.aa@pg.com,10,N
+14,5,Environmental,monem.ma,Mohamed Monem,monem.ma@pg.com,20,N
+15,5,Fire Protection,abouzyed.ms,Mahmoud Abouzaed,abouzyed.ms@pg.com,30,N
+16,5,Electrical Safety,aly.hs,Hussien Aly,aly.hs@pg.com,40,N
+17,5,AGM,abdelazez.n,Nour Abdelazez,abdelazez.n@pg.com,50,N
+18,5,IHS,abdelaziz.ze,Zien Abdelaziz,abdelaziz.ze@pg.com,60,N
+19,5,Safety/PV/TS/OSCV,abdelmegid.i,Ibrahim Abdelmegid,abdelmegid.i@pg.com,70,N
+20,5,EH/HE,abdelazez.n,Nour Abdelazez,abdelazez.n@pg.com,80,N
+54,6,Site Master Plan,assemkamel.mm,Mohamed assemkamel,assemkamel.mm@pg.com,90,N
+55,6,Document Control,mahmoud.a,Ahmed Mahmoud,mahmoud.a@pg.com,100,N
+23,6,Process safety ,abdelhakem.ae,Ahmed Abdelhakem ,abdelhakem.ae@pg.com,10,N
+24,6,Environmental,abdelazez.n,Nour Abdelazez,abdelazez.n@pg.com,20,N
+25,6,Fire protection ,abouzyed.ms,Mahmoud Soliman,abouzyed.ms@pg.com,30,N
+26,6,Electrical Safety ,Aly.hs,Hussien Aly,Aly.hs@pg.com,40,N
+27,6,AGM/HE,Abdelazez.n,Nour Abdelazez,Abdelazez.n@pg.com,50,N
+28,9,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+29,9,F&HC QA 2,Osman.mm,Mohamed Osman,Osman.mm@pg.com,20,Y
+30,10,PSG QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,N
+31,10,F&HC QA 2,Osman.mm,Mohamed Osman,Osman.mm@pg.com,20,Y
+32,8,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+33,8,F&HC QA 2,Osman.mm,Mohamed Osman,Osman.mm@pg.com,20,Y
+34,11,FC QA,abdelkhalek.ma,Mohamed Abdelkhalek,abdelkhalek.ma@pg.com,30,N
+35,12,BS QA,shaker.mm, Mohamed Shaker,shaker.mm@pg.com,30,N
+36,12,BS QA 2,Abdelkhalek.ma,Mohamed Abdelkalek,Abdelkhalek.ma@pg.com,20,Y
+37,14,WH QA,Yasser.m,Mohamed Yasser,Yasser.m@pg.com,10,N
+38,14,WH Qa 2,Ragab.ar,Ahmed Ragab,Ragab.ar@pg.com,20,N
+39,13,MSG QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,N
+40,13,F&HC QA 2,Osman.mm,Mohamed Osman,Osman.mm@pg.com,20,Y
+41,15,Human Resource SC,ismail.s.2,Salama Ismail,ismail.s.2@pg.com,10,N
+42,7,Utilities SC,samyhee.aa,Ashraf Samyhee,samyhee.aa@pg.com,10,N
+43,12,BS Safety Coordinator,elsayed.me,Mohamed Elsayed,elsayed.me@pg.com,10,N
+44,11,FC Safety Coordinator,khattab.a,Abdelsamad Khatab,khattab.a@pg.com,10,N
+45,13,MSG Safety Coordinator,ahmed.a.1,Adel Hamed,ahmed.a.1@pg.com,10,N
+46,9,Mix. Safety Coordinator,ahmed.a.1,Adel Hamed,ahmed.a.1@pg.com,30,N
+47,8,Tower Safety Coordinator,ahmed.a.1,Adel Hamed,ahmed.a.1@pg.com,30,N
+48,10,PSG Safety Coordinator,ibrahim.e,Sayed Ismail,ibrahim.e@pg.com,10,N
+49,14,WH Safety Coordinator,ibrahim.bn,Bayoumy Ibrahim,ibrahim.bn@pg.com,30,N
+50,16,BC Safety Coordinator,elsayed.a.1,Aly hassan,elsayed.a.1@pg.com,10,Y
+51,6,IHS,abdelaziz.ze,Zien abdelaziz,abdelaziz.ze@pg.com,60,N
+52,6,PV 's / Th. safety / OSCV,abdelmegid.i,Ibrahim abdelmegid,abdelmegid.i@pg.com,70,N
+53,6,EH/HE,abdelazez.n,Nour abdelazez,abdelazez.n@pg.com,80,N
+56,25,BS QA,shaker.mm,Mohamed Shaker,shaker.mm@pg.com,30,N
+57,25,BS Safety Coordinator,mohamed.m,Magdy Mohamed,mohamed.m@pg.com,10,N
+58,29,MSG QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,N
+59,29,F&HC QA 2,osman.mm,Mohamed Osman,osman.mm@pg.com,20,Y
+60,29,MSG Safety Coordinator,ahmed.a.1,Adel Hamed,ahmed.a.1@pg.com,10,N
+61,28,BC Safety Coordinator,elsayed.a.1,Aly Hassan,elsayed.a.1@pg.com,10,N
+62,24,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+63,26,FC QA,abdelkhalek.ma,Mohamed Abdelkhalek,abdelkhalek.ma@pg.com,30,N
+64,26,FC Safety Coordinator,khattab.a,Abdelsamad Khattab,khattab.a@pg.com,10,N
+65,30,HDW QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,Y
+66,30,HDW Safety Coordinator,elsayed.hh,Hossam Rady,elsayed.hh@pg.com,10,N
+67,30,HDW Microbyology/QA,shaker.mm,Mohamed Shaker,shaker.mm@pg.com,40,N
+68,23,HDW QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,N
+69,23,HDW Safety Coordinator,elsayed.hh,Hossam rady,elsayed.hh@pg.com,10,N
+70,23,HDW Microbiology,Shaker.mm,Mohamed Shaker,Shaker.mm@pg.com,40,N
+71,20,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+72,20,Making Safety coordinator,ahmed.a.1,Adel Hamed,ahmed.a.1@pg.com,20,N
+73,21,PSG QA,osman.mm,Mohamed Osman,osman.mm@pg.com,30,N
+74,21,PSG safety Coordinator,hanafy.s.1,Sayed Hanafy,hanafy.s.1@pg.com,10,N
+75,31,WH Safety Coordinator,abouelnaga.a,Ahmed Abouelnaga,abouelnaga.a@pg.com,10,N
+76,31,WH QA,abdelkhalek.ma,Mohamed Abdelkhalek,abdelkhalek.ma@pg.com,30,N
+77,6,Clinic,elghawaby.m,Mohamed AbouBakr,elghawaby.m@pg.com,110,Y
+78,6,Utilities,samyhee.aa,Ashraf Samyhee,samyhee.aa@pg.com,120,N
+79,6,ER / Permits / security,barakat.t,Tarek Barakat,barakat.t@pg.com,130,N
+80,32,Lab Safety Coordinator,abdelhady.m,Mohamed Abdelhady,abdelhady.m@pg.com,20,N
+81,6,structure integrity,nofal.mm,Mostafa Nofal ,nofal.mm@pg.com,140,N
+82,22,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+83,22,F&HC Safety Co,ibrahim.e,Sayed Ismail,ibrahim.e@pg.com,20,N
+84,24,Micro QA,shaker.mm,Mohamed Shaker,shaker.mm@pg.com,20,N
+85,27,F&HC QA,osman.mm,Mohamed Osman,osman.mm@pg.com,10,N
+86,15,F&HC QA,hassan.hy,Hytham Hassan,hassan.hy@pg.com,20,N
+87,19,F&HC QA,hassan.hy,Hytham Hassan,hassan.hy@pg.com,10,N
+88,33,F&HC QA,hassan.hy,Hytham Hassan,hassan.hy@pg.com,10,N
+89,7,F&HC QA,hassan.hy,Hytham Hassan,hassan.hy@pg.com,20,N
+90,33,SR Safety Coordinator,mahmoud.ia,Ibrahim Mahmoud,mahmoud.ia@pog.com,20,N
+91,11,FC Department Manager,bakr.hm,Hesham Bakr,bakr.hm@pg.com,30,Y
+92,11,FC Department Manager,bakr.hm,Hesham Bakr,bakr.hm@pg.com,20,Y
+93,20,Project Manager,nounou.oa,Omar Nounou,nounou.oa@pg.com,30,N
+94,29,MSG Project Manager,ali.md,Mohammed Ali,ali.md@pg.com,30,N
+95,6,IHE Safety,Aly.hs,Hussien Aly,Aly.hs@pg.com,150,N
+96,6,Site PC&IS,assemkamel.mm,Mohamed Assemkamel,assemkamel.mm@pg.com,160,N
+97,16,BC QA,elmokadem.e,Emad Elmokadem,elmokadem.e@pg.com,20,Y
+98,16,BC QA Owner,elmokadem.e,Emad Elmokadem,elmokadem.e@pg.com,30,Y
+99,28,BC QA Owner,elmokadem.e,Emad Elmokadem,elmokadem.e@pg.com,20,N
+100,6,Sustainability,alisaad.ki,Karim Alisaad,alisaad.ki@pg.com,170,N
+101,12,,,,,30,Y
+102,35,WH QA,abdelkhalek.ma,Mohamed Abdelkhalek,abdelkhalek.ma@pg.com,30,N
+103,35,WH Safety Coordinator,ibrahim.bn,Bayoumy Ibrahim,ibrahim.bn@pg.com,10,N
+104,32,Lab Manager,hassan.hy,Hytham Hassan,hassan.hy@pg.com,20,Y
+105,6,Chemical Management,abdelhakem.ae,Ahmed Abdelhakem,abdelhakem.ae@pg.com,180,N
+106,25,Project Manager,saad.am.2,Adham Saad,saad.am.2@pg.com,30,Y
+107,25,BS Projects Manager,saad.am.2,Adham Saad,saad.am.2@pg.com,20,N
+108,41,Project manager,abdelmegid.i,ibrahiem,abdelmegid.i@pg.com,10,Y
+109,12,BS Projects Manager,nofal.mm,Mostafa Nofal,nofal.mm@pg.com,30,N
+110,11,FC Project Manager,Nofal.mm,Mostafa Nofal,Nofal.mm@pg.com,30,N
+111,26,FC Project Manager,Morsy.mm,Mahmoud Morsy,Morsy.mm@pg.com,20,N
+112,30,HDW Project Manager,assemkamel.mm,Mohamed assemkamel,assemkamel.mm@pg.com,20,N
+113,23,HDW Project Manager,elsheikha.a,Ahmed Elsheikha,elsheikha.a@pg.com,20,N
+114,13,MSG Project Manager,ali.md,Mohammed Ali,ali.md@pg.com,30,N
+115,10,PSG Project Manager,tahseen.mm,Malak Tahseen,tahseen.mm@pg.com,30,N
+116,21,PSG Project Manager,tahseen.mm,Malak Tahseen,tahseen.mm@pg.com,20,N
+117,31,WH Project Manager,nofal.mm,Mostafa Nofal,nofal.mm@pg.com,20,N
+118,35,WH Project Manager,nofal.mm,Mostafa Nofal,nofal.mm@pg.com,20,N
+119,45,HDL Project Manager,assemkamel.mm,Mohamed Assem,assemkamel.mm@pg.com,10,N
+120,45,HDL Microbyology/QA,shaker.mm,Mohamed Shaker,shaker.mm@pg.com,20,N
+121,47,TSM Safety coordinator,abdelmegid.i,Ibrahim abdelmegid,abdelmegid.i@pg.com,10,N
+122,47,F&HC QA,hassan.hy,Hytham Hassan,hassan.hy@pg.com,20,N
+123,47,Projects Manager,nofal.mm,Mostafa Nofal,nofal.mm@pg.com,30,N
+124,6,Medical,elghawaby.m,Mohamed AbouBakr,elghawaby.m@pg.com,180,Y
+125,6,Medical,sharafeldin.cm,Cinderlla  SharafEldin,sharafeldin.cm@pg.com,180,N

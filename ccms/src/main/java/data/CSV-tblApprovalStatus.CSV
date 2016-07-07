@@ -1,0 +1,11 @@
+﻿ApprovalStatusID,ApprovalStatus,hidden
+1,Pending,N
+2,Approved,N
+3,Rejected,N
+4,In Progress,N
+5,On Hold,N
+6,Complete,N
+7,Cancelled,N
+8,Overdue,N
+9,Implemented,N
+10,Violation,N

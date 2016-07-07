@@ -1,0 +1,342 @@
+/* title */
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+input 
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+select 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+a:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+a {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+
+.header {
+	background:url(./images/headerbg2.jpg);
+	background-repeat:repeat-x;
+	margin-top:2px;
+	background-color:#003DAF;
+}
+
+.content_body
+{
+	background-color:#0099ff;
+	color:#bef0ef;
+}
+
+.content_body a {
+	COLOR: #bef0ef; TEXT-DECORATION: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.content_body a:visited {
+	COLOR: #bef0ef; TEXT-DECORATION: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.content_body a:hover {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+
+.content_header
+{
+}
+.content_footer
+{
+	background-color:#003daf;
+	color:#bef0ef;
+}
+
+.content_footer a {
+	color:#000;
+}
+
+.content_footer a:hover {
+	color:#000;
+}
+
+.topnav {
+	color:#ffffff;
+	text-decoration:none;
+	padding:2px;
+}
+.topnav a:hover {
+	background-color:#0099ff;
+	text-decoration:none;
+	padding:2px;
+}
+.topnav a{
+	color:#ffffff;
+	text-decoration:none;
+	padding:2px;
+}
+.topnav a:visited{
+	color:#ffffff;
+	text-decoration:none;
+	padding:2px;
+}
+
+
+
+/*
+.title {
+	font-size:14pt;
+	color:#008000;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:20px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+*/
+.title 
+{
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 3px; 
+	PADDING-RIGHT: 7px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	COLOR: #4c4c4c; 
+	FONT-SIZE: 14pt; 
+	FONT-WEIGHT: bold; 
+	PADDING-TOP: 2px
+}
+.nav{
+     padding-left:50px;
+     margin-left:50px;
+     margin-top:10px;
+	 margin-bottom:10px;
+ 	 padding-right:50px;
+	 background-color:#cccccc;
+	 width:400px;
+    }
+.searchbar{
+           background-color:#eeeeee;
+          }
+.content{
+          background-color:#ffffff;
+        }
+.tableContent{
+         font-size:10pt;
+        }
+.tableRow{
+         height:30px;
+  }
+#searchBtnPanel{
+         width:60px;
+ }
+#searchBtn {height:35px;
+          }
+
+.searchItemText{
+           text-align:center;
+ 		   font-weight:bold;
+		   font-size:10pt;
+		   overflow:hidden;
+		   }
+.searchItemInput{
+           font-size:10pt;
+		   height:20px;
+		   margin-top:0px;
+		   margin-right:0px;
+		   padding-right:0px;
+		   margin-bottom:0px;
+		   overflow:hidden;
+		   }
+
+#searchIDPanel{width:40px; }
+
+#searchIDText{width:40px;}
+#searchByIDInput{width:40px;}
+
+#barItemDate{width:150px;}
+#searchByDateInput{width:120px;}
+
+#barItemOriginator{width:120px;}
+#searchByOriginatorInput{width:120px;}
+
+#barItemArea{width:150px;
+             overflow: hidden;
+			 }
+.barItemArea{width:150px;
+             overflow: hidden;
+			 text-overflow:ellipsis;
+			 }
+
+#searchByAreaInput{width:150px;}
+
+.seperator{width:2px;
+            }
+
+.calendarImg{ width:13px;
+              height:13px;
+			  margin-left:0px;
+			  padding-left:0px;
+ 			  border:0px;
+			  }
+.imgLink{
+           vertical-align:top;
+           margin-left:0px;
+		   margin-right:0px;
+		   padding-left:0px;
+		   padding-right:0px;
+		   border:0px;
+		   text-decoration: none;
+		   }
+.evenRow{
+         background-color:#ffffff;
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size:x-small;
+        }
+.oddRow{
+         background-color:#dddddd;
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size:x-small;
+       }
+.newRow{
+         background-color:#999999;
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size:x-small;
+		 }
+.missing{
+   background-color:#ff0000;
+}
+.bold{
+ font-size:10pt;
+ color:#000088;
+ font-weight:bold;
+}
+.listItem{
+  cursor:pointer;
+  white-space:nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:8pt;
+  font-weight:normal;
+}
+.listInput{
+ height:20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:8pt;
+ }
+ .listImage{
+ border-width:0;
+ width:16px;
+ height:16px;
+ vertical-align:middle;
+ }
+ .listPanel{
+ background-color:#ffffff;
+ display:none;
+ position:absolute;
+ z-index:1000;
+ }
+.cellNowrapHidden{
+ white-space:nowrap;
+ overflow:hidden;
+ }
+.cellNowrap{
+ white-space:nowrap;
+ overflow:hidden;
+ }
+.signature{
+ width:90px;
+ height:20px;
+}
+.approveBox{
+background-color:transparent;
+outline-style:solid;
+outline-width:1px;
+outline-color:#00ff00;
+ border-style:solid;
+ border-width:1px;
+ border-color:#00ff00;
+}
+.rejectBox{
+
+outline-style:solid;
+outline-width:1px;
+outline-color:#ff0000;
+ border-style:solid;
+ border-width:1px;
+ border-color:#ff0000;
+ }
+ .listInfo{
+  font-weight:bold;
+  color:#0000ff;
+ }
+
+.normalBody{
+ background-color:#ffffff;
+}
+.rejectBody{
+ background-color:#666666;
+}
+.rejectBody_old{
+background-attachment:scroll;
+background-image:url('images/rejection_bg.jpg');
+background-repeat:no-repeat;
+background-position:80% 0; 
+}
+.completeBody{
+ background-color:#ffffff;
+}
+.approveBody{
+ background-color:#eeffee;
+}
+.cancelBody{
+background-color:#666666;
+}
+.cancelBody_old{
+background-attachment:scroll;
+background-image:url('images/cancel_bg.jpg');
+background-repeat:no-repeat;
+background-position:80% 0; 
+
+}
+.toolbarContainer{
+padding-left:3px;
+padding-top:1px;
+padding-bottom:1px;
+padding-right:3px;
+background-color:#000000;
+}
+.buttonContainer{
+ padding-left:2px;
+ padding-right:2px;
+}
+.formButton{
+ cursor:pointer;
+ font-size:8pt;
+ background: #EBAB00;
+/* border-top: 2px solid #FFC84D;*/ /*search_button_border_topleft*/
+border-top: 1px solid #DDDDDD;
+/* border-left: 1px solid #FFD983; *//*search_button_border_topleft*/
+ border-left: 1px solid #DDDDDD; 
+/* border-bottom: 2px solid #FFC84D;*/ /*search_button_border_bottomright*/
+ border-bottom: 1px solid #666666;
+/* border-right: 1px solid #FFD983; *//*search_button_border_bottomright*/
+border-right: 1px solid #666666; 
+
+}
+.buttonImage{
+ vertical-align:top;
+ width:25px;
+ height:16px;
+}
+.buttonLabel{
+ color:#000000;
+ font-size:8pt;
+}
