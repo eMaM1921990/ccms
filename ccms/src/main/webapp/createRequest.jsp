@@ -1111,6 +1111,7 @@
 						<option value="Maintenace Activities">Maintenace Activities</option>
 						<option value="Site Facility Change">Site Facility Change</option>
 						<option value="New Project">New Project</option>
+						<option value="New Software">New Software / Website or Modification ins Software/ Website</option>
 						
 				</select></td>
 			</tr>
@@ -1152,6 +1153,13 @@
 			
 			<tr><td>13.  Is this change in medium volt system ? <b style="color:red">*</b></td><td><input type="radio" name="q13" value="Y" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>Yes  <input type="radio" name="q13" value="N" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>No</td></tr>
 			<tr ><td colspan="1"><textarea rows="3" cols="80" id="q13_ans" name="q13_ans" style="visibility:collapse;display:none"></textarea></td></tr>
+			
+			
+			<!-- New changes -->
+			
+			<tr><td>14.  Is the software purchased from a standard P&G supplier or a local supplier? (Please provide the name) ? <b style="color:red">*</b></td><td><input type="radio" name="q14" value="Y" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>Yes  <input type="radio" name="q14" value="N" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>No</td></tr>
+			<tr ><td colspan="1"><textarea rows="3" cols="80" id="q14_ans" name="q14_ans" style="visibility:collapse;display:none"></textarea></td></tr>
+			
 		</table>
 
 		<span class="bold">Originator:</span>
