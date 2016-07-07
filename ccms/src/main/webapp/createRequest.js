@@ -317,6 +317,11 @@ function doSubmit(btn) {
 		alert("Please answer Q13");
 		return false;
 	}
+	
+	if (!handle_radio("q14")) {
+		alert("Please answer Q14");
+		return false;
+	}
 
 
 

@@ -19,6 +19,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 public class MailSender {
+	// Need to be change in production to False
     private static boolean test = true;
 
     public static void sendEMail(final String toStr, final String subject, String msg) throws Exception {

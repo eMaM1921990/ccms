@@ -141,6 +141,12 @@
 			String q13_answer="";
 			boolean bq13_answer=false;
 			
+			//Changes by emam  01000292810
+			String q14_selection="";
+			boolean bq14_selection= false;
+			String q14_answer="";
+			boolean bq14_answer=false;
+			
 			String tor_selection="";
 			boolean btor_selecton=false;
 			
@@ -346,6 +352,15 @@
 							q13_answer=strFieldValue==null?""
 									:strFieldValue;
 						
+						//change emam 01000292810
+						else if (fieldName.equals("q14"))
+							q14_selection=strFieldValue==null?""
+									:strFieldValue;
+						
+						else if (fieldName.equals("q14_ans"))
+							q14_answer=strFieldValue==null?""
+									:strFieldValue;
+						
 						else if (fieldName.equals("TOR"))
 							tor_selection=strFieldValue==null?""
 									:strFieldValue;
@@ -462,7 +477,7 @@
 					sql = "insert into tblChangeControlLog (requestDate,originator,AreaID,LineID, EquipmentID, IsReApplication,ReApp,startTiming, endTiming,cost,";
 					sql += "CostType,changeDesc,changeReason,approvalStatusID,approvalDate,IsPrinted,OtherEquipment,Cost2,IsSafety,IsEmergency,creator,creatorEmail,take2site,approvedBy,approvedDate,areaNames,lineNames,statuscomment,hidden,notified,creatorteam,creatorPhone,"+
 							"Q1_SELECTION,Q1_ANS,Q2_SELECTION,Q2_ANS,Q3_SELECTION,Q3_ANS,Q4_SELECTION,Q4_ANS,Q5_SELECTION,Q5_ANS,Q6_SELECTION,Q6_ANS,Q7_SELECTION,Q7_ANS,"+
-							"Q8_SELECTION,Q8_ANS,Q9_SELECTION,Q9_ANS,Q10_SELECTION,Q10_ANS,Q11_SELECTION,Q11_ANS,Q12_SELECTION,Q12_ANS,Q13_SELECTION,Q13_ANS,TOR_SELECTION) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+							"Q8_SELECTION,Q8_ANS,Q9_SELECTION,Q9_ANS,Q10_SELECTION,Q10_ANS,Q11_SELECTION,Q11_ANS,Q12_SELECTION,Q12_ANS,Q13_SELECTION,Q13_ANS,Q14_SELECTION,Q14_ANS,TOR_SELECTION) values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 					
 					System.out.println("Selection of Request :"+tor_selection);
 					pstmt = c.prepareStatement(sql,
@@ -534,7 +549,9 @@
 					pstmt.setString(56, q12_answer);
 					pstmt.setString(57, q13_selection);
 					pstmt.setString(58, q13_answer);
-					pstmt.setString(59, tor_selection);
+					pstmt.setString(59, q14_selection);
+					pstmt.setString(60, q14_answer);
+					pstmt.setString(61, tor_selection);
 					int ret = pstmt.executeUpdate();
 					rs = pstmt.getGeneratedKeys();
 					if (rs != null && rs.next()) {

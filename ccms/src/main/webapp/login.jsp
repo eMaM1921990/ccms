@@ -353,7 +353,7 @@
 		String strSite = "";
 		try {
 			if (strUser.equals("test1")) {
-				strEmail = "bassem.zohdy@gmail.com";
+				strEmail = "eMaM151987@gmail.com";
 				strFullName = "Test Test";
 				strSite = "nosite";
 			} else {

@@ -95,6 +95,10 @@
 
 	String q13_selection = "";
 	String q13_answer = "";
+	
+	//  Changes by emam 01000292810
+	String q14_selection = "";
+	String q14_answer = "";
 
 	String tor_selection = "";
 
@@ -414,6 +418,9 @@
 
 			q13_selection = rs.getString("Q13_SELECTION");
 			q13_answer = rs.getString("Q13_ANS");
+			
+			q14_selection = rs.getString("Q14_SELECTION");
+			q14_answer = rs.getString("Q14_ANS");
 
 			tor_selection = rs.getString("TOR_SELECTION");
 		} else {
@@ -980,6 +987,15 @@ function initMe(){
 							<td><%=q13_selection.equals("Y")?"Yes":"No" %></td>
 							<td style="color: blue;"><%=q13_selection.equals("Y")?q13_answer:"" %></td>
 						</tr>
+						
+						<!-- Changes -->
+						
+						<tr>
+							<td>14.Is the software purchased from a standard P&G supplier or a local supplier? (Please provide the name) ? </td>
+							<td><%=q14_selection.equals("Y")?"Yes":"No" %></td>
+							<td style="color: blue;"><%=q14_selection.equals("Y")?q14_answer:"" %></td>
+						</tr>
+						
 					</table>
 					<h5>Proposed Timing</h5>
 					<span style="font-weight: bold">Start of construction:</span> <input
