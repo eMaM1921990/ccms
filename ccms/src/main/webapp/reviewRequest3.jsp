@@ -991,7 +991,7 @@ function initMe(){
 						<!-- Changes -->
 						
 						<tr>
-							<td>14.Is the software purchased from a standard P&G supplier or a local supplier? (Please provide the name) ? </td>
+							<td>14.Is this request related to software development ? </td>
 							<td><%=q14_selection.equals("Y")?"Yes":"No" %></td>
 							<td style="color: blue;"><%=q14_selection.equals("Y")?q14_answer:"" %></td>
 						</tr>

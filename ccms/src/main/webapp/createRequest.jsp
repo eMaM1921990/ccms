@@ -1174,7 +1174,7 @@
 			
 			<!-- New changes -->
 			
-			<tr><td>14.  Is the software purchased from a standard P&G supplier or a local supplier? (Please provide the name) ? <b style="color:red">*</b></td><td><input type="radio" name="q14" value="Y" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>Yes  <input type="radio" name="q14" value="N" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>No</td></tr>
+			<tr><td>14.  Is this request related to software development? <b style="color:red">*</b></td><td><input type="radio" name="q14" value="Y" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>Yes  <input type="radio" name="q14" value="N" onchange="handleQuestionAns(getAttribute('name'),this.value)"/>No</td></tr>
 			<tr ><td colspan="1"><textarea rows="3" cols="80" id="q14_ans" name="q14_ans" style="visibility:collapse;display:none"></textarea></td></tr>
 			
 		</table>
