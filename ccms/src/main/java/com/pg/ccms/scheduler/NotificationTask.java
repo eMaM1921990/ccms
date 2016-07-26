@@ -272,8 +272,8 @@ public class NotificationTask
       
       String strMsg = "Hello,<br/>";
       strMsg = strMsg + " This is an auto-generated message by online Change Management System, please do NOT reply!<br/>";
-      strMsg = strMsg + " Change request: <em>#" + logId + "</em>  has been implemented and needs your follow up.<br/>";
-      strMsg = strMsg + " Click <a href='#SERVER#/ccms/reviewRequest3.jsp?n=" + logId + "' target='review'>here</a> to review the change request.";
+      strMsg = strMsg + " The Change Management Request: " + logId + " has been implemented and needs your follow up.<br/>";
+      strMsg = strMsg + " Click <a href='#SERVER#/ccms/reviewRequest3.jsp?n=" + logId + "' target='review'>here</a> to review the  request.";
       strMsg = strMsg + "<br/><br/><b>Change Description:</b><div style='border:1px solid #000000;padding:10px'>" + strDesc + "</div>";
       MailSender.sendEMail(strApproverEmails, "Follow up needed for Change Request:" + logId, strMsg);
       
